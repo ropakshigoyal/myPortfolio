@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactTypingEffect from 'react-typing-effect';
+import { TypeAnimation } from 'react-type-animation';
 import Tilt from 'react-parallax-tilt';
 import profileImage from '../../assets/profile2.png';
 
@@ -23,19 +23,19 @@ const About = () => {
           {/* Skills Heading with Typing Effect */}
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
             <span className="text-white">I am a </span>
-            <ReactTypingEffect
-              text={[
+            <TypeAnimation
+              sequence={[
                 'Fullstack Developer',
+                2000,
                 'Software Developer',
+                2000,
                 'Coder',
+                2000,
               ]}
-              speed={100}
-              eraseSpeed={50}
-              typingDelay={500}
-              eraseDelay={2000}
-              cursorRenderer={(cursor) => (
-                <span className="text-[#8245ec]">{cursor}</span>
-              )}
+              wrapper="span"
+              speed={50}
+              repeat={Infinity}
+              className="text-[#8245ec]"
             />
           </h3>
           {/* About Me Paragraph */}
@@ -59,8 +59,8 @@ const About = () => {
           >
             DOWNLOAD CV
           </a>
-          
         </div>
+
         {/* Right Side */}
         <div className="md:w-1/2 flex justify-center md:justify-end">
           <Tilt

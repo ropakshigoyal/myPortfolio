@@ -44,15 +44,11 @@ import bsaLogo from './assets/education_logo/bsa_logo.png';
 import vpsLogo from './assets/education_logo/vps_logo.png';
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/github_det.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
-import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
+import Weather_app from './assets/work_logo/Weather_app.png';
+import Shop_me from './assets/work_logo/Shop_Me.png';
+import Drum_kit from './assets/work_logo/Drum_kit.png';
+import Dice_game from './assets/work_logo/Dice_game.png';
+
 
 
 export const SkillsInfo = [
@@ -171,7 +167,7 @@ export const SkillsInfo = [
   export const education = [
     {
       id: 0,
-      img: glaLogo,
+      // img: glaLogo,
       school: "NIT Jalandhar,Jalandhar",
       date: "November 2022 - present",
       grade: "7.81 CGPA",
@@ -181,7 +177,7 @@ export const SkillsInfo = [
     
     {
       id: 1,
-      img: vpsLogo,
+      // img: vpsLogo,
       school: "M . T . S, Barnala",
       date: "March 2021 - March 2022",
       grade: "94.4%",
@@ -190,7 +186,7 @@ export const SkillsInfo = [
     },
     {
       id: 2,
-      img: vpsLogo,
+      // img: vpsLogo,
       school: "M . T . S, Barnala",
       date: "March 2008 - March 2020",
       grade: "96.2%",
@@ -202,92 +198,43 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
-      title: "GitHub Profile Detective",
+      title: "ShopMe",
       description:
-        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-      image: githubdetLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-      webapp: "https://githubprofiledetective.netlify.app/",
+        "A powerful and user-friendly React.js application designed to make an ECommerce website with enhancing features.",
+      image: Shop_me,
+      tags: ["HTML", "CSS", "JavaScript", "React JS"],
+      github: "https://github.com/ropakshigoyal/ECommerce-React",
+      webapp: "https://e-commerce-beta-sable.vercel.app/",
     },
     {
       id: 1,
-      title: "CS Prep",
+      title: "Weather App",
       description:
-        "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-      image: csprepLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/CSPrep",
-      webapp: "https://csprep.netlify.app/",
+      "Website designed with dynamic background by callimg API of the searched city",
+      image: Weather_app,
+      tags: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/ropakshigoyal/weather_app_final_ms",
+      webapp: "https://ropakshigoyal.github.io/weather_app_final_ms/",
     },
     {
       id: 2,
-      title: "Movie Recommendation App",
+      title: "Dice Game",
       description:
-        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-      image: movierecLogo,
-      tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/Movie-Recommendation-App",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
+      "Interactive dice game made to engage students into activity",
+      image: Dice_game,
+      tags: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/ropakshigoyal/dice_game",
+      webapp: "https://ropakshigoyal.github.io/dice_game/",
     },
     {
       id: 3,
-      title: "Email Validator NPM Package",
+      title: "Drum Kit",
       description:
-        "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-      image: npmLogo,
-      tags: ["React JS", "Node.js", "NPM", "Validation"],
-      github: "https://github.com/codingmastr/cmtk-email-validator",
-      webapp: "https://www.npmjs.com/package/cmtk-email-validator",
+      "Effective sounds are played with mouse click or key pressed.",
+      image: Drum_kit,
+      tags: ["HTML","CSS","JS"],
+      github: "https://github.com/ropakshigoyal/Drum_kit",
+      webapp: "https://ropakshigoyal.github.io/Drum_kit/",
     },
-    {
-      id: 4,
-      title: "Task Reminder Chrome Extension Tool",
-      description:
-        "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-      image: taskremLogo,
-      tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-      github: "https://github.com/codingmastr/Task-Reminder-Tool",
-      webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
-    },
-    {
-      id: 5,
-      title: "Webverse Digital",
-      description:
-        "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-      image: webverLogo,
-      tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-      github: "https://github.com/codingmastr/Webverse-Digital",
-      webapp: "https://webversedigital.com/",
-    },
-    {
-      id: 6,
-      title: "Coding Master",
-      description:
-        "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-      image: cmLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-      github: "https://codingmasterweb.in/",
-      webapp: "https://codingmasterweb.in/",
-    },
-    {
-      id: 7,
-      title: "Image Search App",
-      description:
-        "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-      image: imagesearchLogo,
-      tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Search-App",
-      webapp: "https://imagsearch.netlify.app/",
-    },
-    {
-      id: 8,
-      title: "Image Background Remover",
-      description:
-        "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-      image: removebgLogo,
-      tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Background-Remover",
-      webapp: "https://removeyourbg.netlify.app/",
-    },
+  
   ];  
